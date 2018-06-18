@@ -20,7 +20,8 @@ class Routing
                     $controllerName = ucfirst($route[$i]) . "Controller";
                     $modelName =  ucfirst($route[$i]) . "Model";
                     break;
-                } else {
+                }
+                else {
                     $action = $route[$i];
                 }
             }
@@ -35,7 +36,8 @@ class Routing
 
     }
 
-    public function errorPage() {
+    public function errorPage()
+    {
 
     }
 

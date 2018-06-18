@@ -28,4 +28,10 @@ class IndexController extends Controller
             return false;
         }
     }
+
+    public function asd()
+    {
+        $this->view->render($this->pageTpl,$this->pageData);
+
+    }
 }
